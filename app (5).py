@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Load trained model and encoder
 model = joblib.load("emotion_model.pkl")
-encoder = joblib.load("encoder.pkl")
+encoder = joblib.load("label_encoder.pkl")
 
 st.set_page_config(
     page_title="Speech Emotion Recognition",
